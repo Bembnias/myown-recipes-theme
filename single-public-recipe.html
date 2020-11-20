@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-primary">
+        <div class="brand">
+            <a href="public-recipes.html">
+                <img src="./img/myownrecipes-logo.svg" alt="myownrecipes logo">
+            </a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="hamburger-button text-lg hide-on-lg">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="nav-items">
+            <li><a href="public-recipes.html">Public</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <header class="background-bar">
+        <div class="overlay"></div>
+        <img src="./img/pizza.jpeg">
+        <div class="midle">
+            <h3 class="text-center text-lg bold text-white">Pizza Salami by <span class="text-primary">Sarah Larson</span></h3>
+        </div>
+    </header>
+
+    <section class="recipe-wrapper">
+        <article class="main-content text-dark">
+            <div class="ingredients-section">
+                <h5 class="text-md">Igredients:</h5>
+                <p class="mx-2 my-1 bold">
+                    <span>• Flour - 500g</span><br>
+                    <span>• Olive oil - 50ml</span><br>
+                    <span>• Salami slices</span><br>
+                    <span></span>• Cheese cheddar</span><br>
+                </p>
+            </div>
+            <div class="method-section my-2">
+                <h5 class="text-md">Method:</h5>
+                <p class="method-content mx-2 my-1 bold">
+                    1) Nulla vitae viverra sapien, at hendrerit neque. <br>
+                    2) Cras laoreet ligula a lorem facilisis sodales ac eu ex. <br>
+                    3) Sed blandit nisi eu elit lobortis ultrices. <br>
+                    4) Etiam porttitor convallis mi, non accumsan neque tincidunt in. Aenean eget orci enim. <br>
+                </p>
+            </div>
+            <div class="action-buttons">
+                <div class="like-btn btn btn-md btn-red"><i class="fas fa-heart"></i> Like it</div>
+                <div class="likes-counter"><i class="far fa-heart"></i> 312</div>
+                <div class="back-btn btn btn-md btn-white">Back to all recipes</div>
+            </div>
+            <span class="divider"></span>
+            <section class="comments-section">
+                <h5 class="text-md">Comments:</h5>
+                <form class="my-1">
+                    <textarea name="text" cols="30" rows="5" placeholder="Add Comment" ></textarea>
+                    <input type="submit" class="bold btn btn-primary btn-sm my-1 float-right" value="Submit"/>
+                </form>
+                <div class="coments my-2 clear-both">
+
+                    <div class="comment bold">
+                        <a href="profile.html" class="author">
+                            <div class="rounded-image">
+                                <img src="./img/girl-smiling.png" alt="author photo">
+                            </div>
+                            <div class="author-credits">
+                                <p class="text-sm text-dark">Ann Smith</p>
+                                <p class="text-xsm text-blue">11 Public Recipes</p>
+                            </div>
+                        </a>
+                        <p class="comment-content text-light-dark">Wonderful recipe, me and my family loved it much!</p>
+                    </div>
+
+                    <div class="comment bold">
+                        <a href="profile.html" class="author">
+                            <div class="rounded-image">
+                                <img src="./img/girl picture.jpg" alt="author photo">
+                            </div>
+                            <div class="author-credits">
+                                <p class="text-sm text-dark">Ann Smith</p>
+                                <p class="text-xsm text-blue">11 Public Recipes</p>
+                            </div>
+                        </a>
+                        <p class="comment-content text-light-dark">Best pizza in my life</p>
+                    </div>
+
+                </div>
+            </section>
+        </article>
+
+        <aside class="sidebar">
+            <h5 class="text-md text-dark">Check also:</h5>
+            <div class="sidebar-cards">
+                <div class="card bold">
+                    <div class="card-image">
+                        <img src="./img/pizza.jpeg">
+                    </div>
+                    <h3 class="text-md text-center text-light-dark">Pizza peperoni</h3>
+                    <div class="divider"></div>
+                    <div class="card-left">
+                        <p class="text-xsm text-grey">Time</p>
+                        <p class="text-sm text-light-dark">45 mins</p>
+                    </div>
+                    <div class="card-right">
+                        <p class="text-xsm text-grey"><i class="fas fa-user"></i></p>
+                        <p class="text-sm text-primary">Sarah Larson</p>
+                    </div>
+                    <a href="public-recipe.html" class="btn btn-md btn-primary mt-4">Read more</a>
+                </div>
+                <div class="card bold">
+                    <div class="card-image">
+                        <img src="./img/pizza.jpeg">
+                    </div>
+                    <h3 class="text-md text-center text-light-dark">Pizza peperoni</h3>
+                    <div class="divider"></div>
+                    <div class="card-left">
+                        <p class="text-xsm text-grey">Time</p>
+                        <p class="text-sm text-light-dark">45 mins</p>
+                    </div>
+                    <div class="card-right">
+                        <p class="text-xsm text-grey"><i class="fas fa-user"></i></p>
+                        <p class="text-sm text-primary">Sarah Larson</p>
+                    </div>
+                    <a href="public-recipe.html" class="btn btn-md btn-primary mt-4">Read more</a>
+                </div>
+                <div class="card bold">
+                    <div class="card-image">
+                        <img src="./img/pizza.jpeg">
+                    </div>
+                    <h3 class="text-md text-center text-light-dark">Pizza peperoni</h3>
+                    <div class="divider"></div>
+                    <div class="card-left">
+                        <p class="text-xsm text-grey">Time</p>
+                        <p class="text-sm text-light-dark">45 mins</p>
+                    </div>
+                    <div class="card-right">
+                        <p class="text-xsm text-grey"><i class="fas fa-user"></i></p>
+                        <p class="text-sm text-primary">Sarah Larson</p>
+                    </div>
+                    <a href="public-recipe.html" class="btn btn-md btn-primary mt-4">Read more</a>
+                </div>
+            </div>
+        </aside>
+    </section>
+</body>
+</html>

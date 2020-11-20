@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-primary">
+        <div class="brand">
+            <a href="public-recipes.html">
+                <img src="./img/myownrecipes-logo.svg" alt="myownrecipes logo">
+            </a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="hamburger-button text-lg hide-on-lg">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="nav-items">
+            <li><a href="public-recipes.html">Public</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-lg text-center my-1 text-dark bold">Add new recipe</h1>
+        <form action="">
+            <div class="form-item">
+                <label for="image" class="upload-field"><i class="fas fa-file-upload"></i> Upload photo for this recipe</label>
+                <input type="file" accept="image/*" id="image" name="image" placeholder="Choose photo from your local files">
+            </div>
+            <div class="form-item">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" placeholder="e.g.: Noodles with chicken">
+            </div>
+            <div class="form-item">
+                <label for="ingrediens">Ingredients (Use comma to separate ingredients)</label>
+                <input type="text" id="ingredients" name="ingredients" placeholder="e.g.: chicken, noodles">
+            </div>
+            <div class="action-buttons">
+                <button type="submit" class="btn btn-md btn-primary">Add New Recipe</button>
+                <a href="public-recipes.html" class="btn btn-md btn-white">Back to Recipes</a>
+            </div>
+        </form>
+    </div>
+</body>
